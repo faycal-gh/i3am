@@ -25,9 +25,9 @@ function AllVolunteers() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50 font-sans">
+    <div className="min-h-screen bg-grey-50 font-sans">
       <Navbar />
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white max-h-[800px]">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-extrabold text-primary mb-8 text-center animate-fade-in">All Volunteers</h1>
 
@@ -79,7 +79,7 @@ function AllVolunteers() {
           </div>
         </div>
       </section>
-      <Footer />
+      <Footer/>
       
       {/* CSS Animations */}
       <style>

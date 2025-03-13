@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer"
 import '../index.css';
 function Home() {
   return (
@@ -51,16 +52,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <footer className="bg-primary text-white py-6">
-        <div className="container mx-auto px-4 text-center">
-          <p className="mb-2">&copy; 2025 Mata3im Rahma. All rights reserved.</p>
-          <div className="space-x-4">
-            <a href="#" className="hover:text-secondary">Contact Us</a>
-            <a href="#" className="hover:text-secondary">Privacy Policy</a>
-            <a href="#" className="hover:text-secondary">Terms of Use</a>
-          </div>
-        </div>
-      </footer>
+      <Footer/>
 
       {/* CSS Animations */}
       <style>

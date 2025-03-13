@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
-
+import '../styles/Main.css';
 export default function Footer(){
     return (
         <footer className="bg-primary text-white py-6">
